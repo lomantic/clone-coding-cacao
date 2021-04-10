@@ -3,13 +3,22 @@
 /*component*/
 @import "component/status-bar.css";
 @import "component/navigation-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/alert.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
+
 @import "variables.css";
 @import "reset.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #2f363e;
   /*height: 1000vh;*/
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

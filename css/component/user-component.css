@@ -28,6 +28,9 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 13px;
 }
+.user-component__profile i {
+  color: #fe5c48;
+}
 
 .user-component__avatar--xl {
   width: 60px;

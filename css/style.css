@@ -6,11 +6,17 @@
 @import "component/screen-header.css";
 @import "component/user-component.css";
 @import "component/alert.css";
+@import "component/icon-row.css";
+@import "component/alt-screen-header.css";
+@import "component/top-margin.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 @import "variables.css";
 @import "reset.css";
@@ -18,7 +24,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2f363e;
-  /*height: 1000vh;*/
+  height: 105vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

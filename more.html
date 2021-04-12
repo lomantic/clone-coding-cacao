@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends cocoa</title>
+    <title>More</title>
 </head>
 <body>
     <div class="status-bar">
@@ -25,10 +25,11 @@
             
         </div>
     </div>
+
     <!--<div class="top-margin">top margin</div>-->
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class ="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -40,51 +41,60 @@
 
     </header>
 
-    <a id="friends-display-link" href="#"><i class="fas fa-info-circle"></i>Friends' Names Display<i class="fas fa-chevron-right fa-xs"></i></a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
         <div class="user-component"> 
             <div class="user-component__column">
                <img src="test-img.PNG" class="user-component__avatar user-component__avatar--xl" alt="user-img">
                 <div class="user-component__text">
                     <h4 class="user-component__name">Zhongli</h4>
-                    <!--<h6 class="user-component__profile">blabla something</h6>-->
+                    <h6 class="user-component__profile">+ 111 222 1234 
+                        <i class="fas fa-exclamation-circle"></i>
+                    </h6>
                 </div>
             </div>
-            <div class="user-component__column"></div>
+            <div class="user-component__column more__user-component">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
          </div>
-         <div class="user-component"> 
-            <div class="user-component__column">
-               <img src="deiluc.PNG" class="user-component__avatar user-component__avatar--xl" alt="user-img">
-                <div class="user-component__text">
-                    <h4 class="user-component__name">Deiluc</h4>
-                    <!--<h6 class="user-component__profile">blabla something</h6>-->
-                </div>
-            </div>
-            <div class="user-component__column"></div>
+       
+         <div class="icon-row">
+            <div class="icon-row__icon"><i class="far fa-calendar-check"></i><span>Calender</span></div>
+            <div class="icon-row__icon"><i class="fab fa-google-drive"></i><span>Talk Drive</span></div>
+            <div class="icon-row__icon"><i class="far fa-smile-beam"></i><span>Emoticons</span></div>
+            <div class="icon-row__icon"><i class="fas fa-brush"></i><span>Themes</span></div>
+           <div class="icon-row__icon"><i class="fas fa-money-check-alt"></i></i><span>Account</span></div>
+           <div class="icon-row__icon"><i class="far fa-comments"></i><span>Openchat</span></div>
+         </div>  
+         
+         <div class="more-suggestions">
+             <h4 class="more-suggestions__title">Suggestions</h4>
+             <div class="more-suggestions__icons">
+                <div class="icon-row">
+                    <div class="icon-row__icon">
+                        <div class="more-suggestions__icon-background">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <span>Coco Story</span>
+                    </div>
+                    <div class="icon-row__icon">
+                        <div class="more-suggestions__icon-background">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <span>Coco Friends</span>
+
+                    </div>
+                    <div class="icon-row__icon">
+                        <div class="more-suggestions__icon-background">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <span>Friends gem</span>
+                    </div>
+                    
+                 </div>
+             </div>
+               
          </div>
 
-         <div class="friends-screen__channel">
-             <div class="friends-screen__channel-header">
-                 <span>channel</span>
-                 <i class="fas fa-chevron-up"></i>
-             </div>
-             <div class="user-component"> 
-                <div class="user-component__column">
-                   <img src="cocoa.PNG" class="user-component__avatar user-component__avatar--sm" alt="user-img">
-                    <div class="user-component__text">
-                        <h4 class="user-component__name user-component__name--not-bold">Channel</h4>
-                        
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <span>2  </span>
-                        <i class="fas fa-chevron-right fa-xs"></i>
-                    </div>    
-                </div>
-             </div>
-         </div>
     </main>
 
     <nav class="nav">

@@ -1,0 +1,30 @@
+.more__user-component i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.more-suggestions {
+  margin-top: 30px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 15px;
+}
+
+.more-suggestions__icons .icon-row span {
+  color: var(--grey);
+}
+
+.more-suggestions__icon-background {
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more-suggestions__icons .icon-row__icon:first-child i {
+  color: white;
+}

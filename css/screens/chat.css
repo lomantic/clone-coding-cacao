@@ -89,3 +89,60 @@
 .message-row--own .message-row__info {
   flex-direction: row-reverse;
 }
+
+.input-box {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  padding: 5px 17px;
+
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.input-box__column:first-child {
+  width: 10%;
+}
+.input-box i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-box__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.input-box input {
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+  border: var(--main-border);
+  background-color: #f8f8f8;
+  padding-left: 10px;
+}
+
+.input-box__column:last-child > i,
+.input-box__column:last-child button {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.input-box__column:last-child > i {
+  right: 40px;
+}
+.input-box__column:last-child button {
+  background-color: var(--yellow);
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: 2px;
+  right: -10px;
+}
+.input-box__column:last-child button i {
+  color: black;
+}
